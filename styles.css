@@ -110,7 +110,7 @@ body {
 
 .promotion .details-container .banner1 {
   width: 100%;
-  object-fit: cover;
+  /* object-fit: contain; */
   height: 167px;
 }
 
@@ -341,7 +341,10 @@ body {
 }
 
 .promotion-detail2-summary-content {
-  margin-top: 125%;
+  /* margin-top: 125%; */
+  position: absolute;
+  top: 60%;
+  /* top: 0; */
 }
 
 .promotion .details-container .promotion-detail2-summary a {
@@ -889,7 +892,8 @@ th {
     width: 110%;
   }
 
-  .detail3-prize-content .gift {
+  .detail3-prize-content,
+  .gift {
     color: #ffffff;
     font-weight: 600;
     font-size: 14px;
@@ -903,5 +907,11 @@ th {
     font-weight: 600;
     margin-top: 200px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .promotion-detail2-summary {
+    font-size: 13px;
   }
 }
