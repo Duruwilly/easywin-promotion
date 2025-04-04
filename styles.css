@@ -651,7 +651,7 @@ body {
 .details4-white-board img {
   height: 302px;
   width: 100%;
-  min-width: 374px;
+  /* min-width: 374px; */
   margin-top: -40px;
 }
 
@@ -775,7 +775,7 @@ body {
 .details5-white-board img {
   height: 449px;
   width: 100%;
-  min-width: 412px;
+  /* max-width: 412px; */
   margin-top: -30px;
 }
 
