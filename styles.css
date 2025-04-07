@@ -53,7 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3px;
-  width: 262px;
+  max-width: 262px;
 }
 
 .info .title {
