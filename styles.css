@@ -76,6 +76,23 @@ body {
   font-weight: 700;
 }
 
+.view-more-btn {
+  flex-shrink: 0;
+  border: 1px solid #16bb50;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.fa-arrow-right {
+  color: #16bb50;
+}
+
 .promotion .details-container {
   display: flex;
   flex-direction: column;
